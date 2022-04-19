@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6832d83f-5692-4609-b1c9-dac36c28ed35" name="Changes" comment="sasa">
+    <list default="true" id="6832d83f-5692-4609-b1c9-dac36c28ed35" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/transmission.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon/transmission.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/year.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon/Year.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +74,16 @@
       <workItem from="1650361647471" duration="10806000" />
       <workItem from="1650390266065" duration="2168000" />
       <workItem from="1650392677162" duration="265000" />
-      <workItem from="1650392958552" duration="1501000" />
+      <workItem from="1650392958552" duration="3007000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1650394567749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650394567749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
