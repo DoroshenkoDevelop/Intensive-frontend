@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6832d83f-5692-4609-b1c9-dac36c28ed35" name="Changes" comment="" />
+    <list default="true" id="6832d83f-5692-4609-b1c9-dac36c28ed35" name="Changes" comment="sasa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/transmission.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon/transmission.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/year.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon/Year.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -39,13 +49,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/dev/OpenServer/domains/front/images",
+    "last_opened_file_path": "D:/dev/OpenServer/domains/front/images/icon",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\OpenServer\domains\front\images\icon" />
       <recent name="D:\dev\OpenServer\domains\front\images" />
       <recent name="D:\Domains\front\img" />
     </key>
@@ -63,6 +74,8 @@
       <workItem from="1650352664007" duration="1898000" />
       <workItem from="1650361647471" duration="10806000" />
       <workItem from="1650390266065" duration="2168000" />
+      <workItem from="1650392677162" duration="265000" />
+      <workItem from="1650392958552" duration="1501000" />
     </task>
     <servers />
   </component>
