@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 
 @Component({
@@ -85,8 +85,23 @@ export class AppComponent {
 
   }
 
-  goScroll(target:HTMLElement){
-    target.scrollIntoView({behavior: "smooth"}); // скролинг
+  goScroll(target:HTMLElement,car?: any){
+    target.scrollIntoView({behavior: "smooth"});
+    if (car) {
+      this.priceForm.patchValue({car: car.name});
+    }// скролинг
+  }
+
+  trans: any;
+  @HostListener('document:mousemove', ['$event'])
+  onMouseMove(e: MouseEvent) {
+    this.trans = {transform: 'translate3d(' + ((e.clientX * 0.3) / 8) + 'px,' + ((e.clientY * 0.3) / 8) + 'px,0px)'};
+  }
+
+  bgPos: any;
+  @HostListener('document:scroll', ['$event'])
+  onScroll() {
+    this.bgPos = {backgroundPositionX: '0' + (0.3 * window.scrollY) + 'px'};
   }
 
   onSubmit(){

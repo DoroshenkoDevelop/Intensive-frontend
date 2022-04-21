@@ -19,7 +19,7 @@
   </div>
 </header>
 
-<section class="main">
+<section class="main" [ngStyle]="bgPos">
   <div class="container">
     <div class="main-info">
       <h1 class="main-title">Аренда премиальных автомобилей</h1>
@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="car-item-action">
-          <button class="button car-button" (click)="goScroll(price)">Забронировать</button>
+          <button class="button car-button" (click)="goScroll(price,car)">Забронировать</button>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
       <input type="text" class="price-input" id="car" placeholder="Автомобиль, который вас интересует" formControlName="car">
       <button class="button" type="button" id="price-action" (click)="onSubmit()" [disabled]="!priceForm.valid">Узнать цену</button>
     </form>
-    <img class="price-image" src="../assets/images/rolls.png" alt="rolls">
+    <img class="price-image" src="../assets/images/rolls.png" alt="rolls" [ngStyle]="trans">
   </div>
 </section>
 
